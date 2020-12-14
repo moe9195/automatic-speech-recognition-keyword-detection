@@ -6,7 +6,7 @@
   "contributors": [],
   "license": "MIT",
   "main": "app.js",
-  "repository": "https://github.com/nash-md/automatic-speech-recognition-keyword-detection",
+  "repository": "https://github.com/moe9195/automatic-speech-recognition-keyword-detection",
   "keywords": [
     "Tessel",
     "ASR",
