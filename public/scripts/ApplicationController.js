@@ -8,10 +8,10 @@ function ApplicationController ($scope, $window, $http, $log, $sce) {
   $scope.call = { sid: null, to: '', status: '' };
   $scope.sync = { client: null, state: 'unknown', sid: null, text: '', call: { sid: null, to: null, status: null } };
 
-  $scope.labels = ['Sales', 'Support'];
+  $scope.labels = ['أم أذينة الشرقي', 'ابو نصير','أم قصير','الجندويل','الجويدة','الجيزة','الحرية','الخالدين','الخزنة','الديار','الذراع','الرشيد','الرضوان','الروابي','السهل','الصالحين','الصحابة','الصويفية','اليادودة','جبل عمان','جبل القصور','تلاع العلي'];
   $scope.identity = $scope.getDeviceId();
   $scope.phone = '';
-  $scope.language = 'en-US';
+  $scope.language = 'ar-JO';
 
    $scope.call = function (index) {
     const payload = {

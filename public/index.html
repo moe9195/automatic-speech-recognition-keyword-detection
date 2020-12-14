@@ -26,9 +26,10 @@
                 <form class="form-inline" ng-show="call.sid == null">
                     <input ng-model="phone" type="text" class="form-control" id="phone" placeholder="Phone" style="margin-right:10px; width: 240px">
                     <select style="margin-right:10px; width: 140px" ng-model="language" class="form-control" convert-to-number>
-                        <option value="en-US" selected="selected">English</option>
+                        <option value="ar-JO" selected="selected">Arabic</option>
                         <option value="de-DE">German</option>
                         <option value="sv-SE">Swedish</option>
+                        <option value="en-US">English</option>
                     </select>
                     <button ng-click="call()" type="button" class="btn btn-primary">Call</button>
                 </form>

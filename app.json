@@ -4,7 +4,7 @@
   "logo": "http://node-js-sample.herokuapp.com/node.svg",
   "keywords": ["asr", "twilio", "voice"],
   "image": "heroku/nodejs",
-  "repository": "https://github.com/nash-md/automatic-speech-recognition-keyword-detection",
+  "repository": "https://github.com/moe9195/automatic-speech-recognition-keyword-detection",
   "success_url": "/",
   "env": {
     "TWILIO_ACCOUNT_SID": {

@@ -31,6 +31,8 @@ module.exports.voice = function (req, res) {
 
       const gather = twiml.gather({
         input: 'speech',
+        enhanced: 'true',
+        speechModel: 'phone_call',
         timeout: 30,
         partialResultCallback: requestUrl,
         partialResultCallbackMethod: 'POST',
