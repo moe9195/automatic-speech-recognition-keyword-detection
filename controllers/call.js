@@ -39,7 +39,7 @@ module.exports.voice = function (req, res) {
         language: response.data.language,
         hints: response.data.labels,
       });
-      gather.say('Thanks for calling us, how can we help you?');
+      gather.say('Please state your address in Arabic?');
 
       twiml.hangup();
 
